@@ -1,0 +1,141 @@
+# Test Automation Framework Generation Prompt
+
+Act as a senior test automation architect with extensive experience in Playwright, TypeScript, and ISTQB standards. Create a complete test automation framework with the following specifications:
+
+## Framework Requirements
+
+Create a modern, maintainable test automation framework using:
+- Playwright with TypeScript
+- Page Object Model design pattern
+- Allure reporting
+- Best practices for test automation
+- ISTQB standards compliance
+
+## Required Components
+
+1. Project Structure:
+   - Implement a clear folder hierarchy following separation of concerns
+   - Include configuration management
+   - Set up proper TypeScript configurations
+   - Create documentation templates
+
+2. Core Features:
+   - Cross-browser testing support
+   - Parallel test execution
+   - Screenshot and video capture on failure
+   - Logging mechanism
+   - Environment management
+   - Test data handling
+   - API testing support
+
+3. Design Patterns:
+   - Page Object Model
+   - Base Page implementation
+   - Custom test fixtures
+   - Reusable utilities
+   - Helper functions
+
+4. Test Organization:
+   - Separate E2E and API tests
+   - Support for different test types (smoke, regression)
+   - Clear test categorization
+   - Test data separation
+
+5. Reporting:
+   - Allure reporting integration
+   - Custom step logging
+   - Failure analysis
+   - Test execution history
+   - Screenshots and video attachments
+
+6. Documentation:
+   - Comprehensive README
+   - Contributing guidelines
+   - Testing standards
+   - Technical design document
+   - Maintenance guide
+   - CI/CD setup instructions
+
+## Required Files
+
+Generate the following key files with implementation details:
+
+1. Base Files:
+   - package.json with all dependencies
+   - tsconfig.json
+   - playwright.config.ts
+   - .gitignore
+   - README.md
+
+2. Framework Files:
+   - base.page.ts
+   - test.fixture.ts
+   - logger.helper.ts
+   - allure.helper.ts
+   - common.utils.ts
+
+3. Example Implementation:
+   - Login page object
+   - Sample test suite
+   - API test example
+   - Custom fixture example
+
+4. Documentation:
+   - CONTRIBUTING.md
+   - TESTING_STANDARDS.md
+   - TECHNICAL_DESIGN.md
+   - MAINTENANCE_GUIDE.md
+   - CI_CD_SETUP.md
+
+## Implementation Details
+
+For each component:
+1. Use TypeScript best practices
+2. Include comprehensive error handling
+3. Add detailed comments and documentation
+4. Follow SOLID principles
+5. Implement proper logging
+6. Add type safety
+7. Include test examples
+
+## Additional Requirements
+
+1. Code Quality:
+   - Strict TypeScript configuration
+   - ESLint setup
+   - Prettier configuration
+   - Git hooks for code quality
+
+2. Test Execution:
+   - Support for multiple environments
+   - Configurable test retry logic
+   - Screenshot and video capture
+   - Performance optimization
+
+3. CI/CD Integration:
+   - GitHub Actions workflow
+   - Jenkins pipeline
+   - Docker support
+   - Environment management
+
+## Output Format
+
+Provide the implementation as:
+1. Complete file structure
+2. Each file's contents with explanations
+3. Setup instructions
+4. Usage examples
+5. Best practices guide
+
+## Specific Instructions
+
+1. Focus on maintainability and scalability
+2. Include detailed comments in code
+3. Provide complete error handling
+4. Add logging throughout
+5. Include type definitions
+6. Add documentation for each component
+
+Generate a complete, production-ready framework that can be immediately used by test automation engineers by just configuring their website URL and starting to write tests.
+
+End Note: Please acknowledge these requirements and generate each component one by one, allowing for review and adjustments as needed.

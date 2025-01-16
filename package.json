@@ -1,0 +1,41 @@
+{
+    "name": "playwright-framework",
+    "version": "1.0.0",
+    "description": "Modern test automation framework using Playwright and TypeScript",
+    "main": "index.js",
+    "scripts": {
+        "test": "playwright test",
+        "test:headed": "playwright test --headed",
+        "test:ui": "playwright test --ui",
+        "test:debug": "playwright test --debug",
+        "test:smoke": "playwright test --grep @smoke",
+        "test:regression": "playwright test --grep @regression",
+        "report": "allure generate ./allure-results --clean && allure open",
+        "lint": "eslint . --ext .ts",
+        "format": "prettier --write .",
+        "pretest": "tsc --noEmit"
+    },
+    "keywords": ["playwright", "automation", "testing"],
+    "author": "",
+    "license": "ISC",
+    "type": "commonjs",
+    "dependencies": {
+        "allure-commandline": "^2.27.0",
+        "allure-js-commons": "^2.12.0",
+        "allure-playwright": "^2.12.0",
+        "dotenv": "^16.4.5",
+        "winston": "^3.11.0"
+    },
+    "devDependencies": {
+        "@playwright/test": "^1.49.1",
+        "@types/node": "^22.10.7",
+        "@typescript-eslint/eslint-plugin": "^7.1.0",
+        "@typescript-eslint/parser": "^7.1.0",
+        "csv-parse": "^5.5.3",
+        "eslint": "^8.57.0",
+        "eslint-config-prettier": "^9.1.0",
+        "eslint-plugin-prettier": "^5.1.3",
+        "prettier": "^3.2.5",
+        "typescript": "^5.3.3"
+    }
+}

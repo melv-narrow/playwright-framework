@@ -1,0 +1,4 @@
+"test_case","username","password","expected_result"
+"valid_login","testuser","password123","success"
+"invalid_password","testuser","wrong","error"
+"empty_credentials","","","required" 
